@@ -25,10 +25,10 @@ The goal of this project is to demonstrate practical DevOps and Cloud Engineerin
 
 Terraform
 Terraform Variables
-Ansible  
-Linux  
-Bash  
-AWS  
+Ansible
+Linux
+Bash
+AWS
 
 ---
 
