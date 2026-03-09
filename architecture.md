@@ -4,11 +4,11 @@ This project demonstrates an automated cloud infrastructure workflow.
 
 ## Deployment Flow
 
-Terraform provisions a Linux server in AWS.
+Terraform provisions the cloud infrastructure by deploying a Linux EC2 instance in AWS.
 
-After the infrastructure is deployed, Ansible configures the system.
+Once the instance is created, Ansible performs configuration management by installing required packages and enabling services.
 
-Finally, a Linux hardening script applies security configurations.
+Finally, a Linux hardening script applies security configurations such as system updates, firewall protection, and security service enablement.
 
 ## Workflow Diagram
 
