@@ -50,6 +50,17 @@ cloud-linux-automation-lab
 
 ---
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[GitHub Repository] --> B[Terraform Infrastructure Deployment]
+    B --> C[AWS Linux EC2 Instance]
+    C --> D[Ansible Configuration Management]
+    D --> E[Linux Hardening Script]
+
+---
+
 ## Infrastructure Deployment
 
 Terraform is used to provision a Linux EC2 instance in AWS.
