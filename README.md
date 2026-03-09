@@ -1,5 +1,10 @@
 # Cloud Linux Automation Lab
 
+![Terraform](https://img.shields.io/badge/Infrastructure-Terraform-purple)
+![Ansible](https://img.shields.io/badge/Automation-Ansible-red)
+![Linux](https://img.shields.io/badge/Platform-Linux-blue)
+![DevOps](https://img.shields.io/badge/Practice-DevOps-green)
+
 This project demonstrates how to deploy and automate a secure Linux cloud environment using Infrastructure as Code and configuration management tools.
 
 ## Project Overview
