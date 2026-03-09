@@ -100,6 +100,12 @@ Security scanning
 
 ---
 
+## Architecture Documentation
+
+For a detailed explanation of the infrastructure workflow and deployment process, see:
+
+[Architecture Overview](architecture.md)
+
 ## Author
 
 Ta'Nara N. Taylor  
