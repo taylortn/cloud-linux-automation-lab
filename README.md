@@ -23,7 +23,8 @@ The goal of this project is to demonstrate practical DevOps and Cloud Engineerin
 
 ## Technology Stack
 
-Terraform  
+Terraform
+Terraform Variables
 Ansible  
 Linux  
 Bash  
