@@ -93,10 +93,10 @@ bash scripts/linux-hardening.sh
 
 ## Future Improvements
 
-Docker container deployment  
-Monitoring integration  
-CI/CD pipeline automation  
-Security scanning  
+Docker container deployment
+Infrastructure monitoring integration
+CI/CD pipeline automation
+Automated security scanning
 
 ---
 
