@@ -1,0 +1,17 @@
+---
+- name: Configure Linux server
+  hosts: all
+  become: yes
+
+  tasks:
+
+    - name: Install Docker
+      package:
+        name: docker
+        state: present
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+        enabled: true
