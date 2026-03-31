@@ -1,123 +1,76 @@
 # Cloud Linux Automation Lab
 
-![Terraform](https://img.shields.io/badge/Infrastructure-Terraform-purple)
-![Ansible](https://img.shields.io/badge/Automation-Ansible-red)
-![Linux](https://img.shields.io/badge/Platform-Linux-blue)
-![DevOps](https://img.shields.io/badge/Practice-DevOps-green)
-
-This project demonstrates how to deploy and automate a secure Linux cloud environment using Infrastructure as Code and configuration management tools.
-
-## Project Overview
-
-The Cloud Linux Automation Lab simulates a real-world DevOps workflow where cloud infrastructure is provisioned, configured, and hardened using automated tools.
-
-This lab includes:
-
-• Terraform for infrastructure provisioning  
-• Ansible for server configuration  
-• Bash scripting for Linux security hardening  
-
-The goal of this project is to demonstrate practical DevOps and Cloud Engineering skills.
+## 📌 Overview
+Built an automated AWS-based Linux environment using Terraform and Ansible to provision infrastructure and configure systems. This project focuses on reducing manual system setup, improving consistency, and enabling repeatable deployments in a cloud environment.
 
 ---
 
-## Technology Stack
+## 🎯 Objective
+Manual provisioning and configuration of systems can lead to inconsistencies, security gaps, and increased operational overhead.
 
-Terraform<p>
-Terraform Variables<p>
-Ansible<p>
-Linux<p>
-Bash<p>
-AWS<p>
-
----
-
-## Project Structure
-
-```
-cloud-linux-automation-lab
-│
-├── terraform
-│   └── main.tf
-│
-├── ansible
-│   └── playbook.yml
-│
-├── scripts
-│   └── linux-hardening.sh
-│
-└── README.md
-```
+This project was designed to:
+- Automate infrastructure deployment using Infrastructure as Code
+- Standardize Linux system configuration
+- Apply security hardening practices
+- Reduce manual intervention in system setup
 
 ---
 
-## Architecture Diagram
-
-```mermaid
-flowchart TD
-    A[GitHub Repository] --> B[Terraform Infrastructure Deployment]
-    B --> C[AWS Linux EC2 Instance]
-    C --> D[Ansible Configuration Management]
-    D --> E[Linux Hardening Script]
-```
-
-## Infrastructure Deployment
-
-Terraform is used to provision a Linux EC2 instance in AWS.
-
-Example command:
-
-```
-terraform init
-terraform apply
-```
+## 🛠️ Technologies Used
+- AWS (EC2, VPC, Security Groups)
+- Terraform (Infrastructure as Code)
+- Ansible (Configuration Management)
+- Linux (RHEL-based systems)
+- Bash scripting
+- SSH
 
 ---
 
-## Configuration Management
+## ⚙️ Implementation
 
-Ansible is used to configure the Linux server after deployment.
+### Infrastructure Provisioning (Terraform)
+- Created EC2 instances using Terraform
+- Configured networking components (VPC, subnets, security groups)
+- Managed infrastructure through reusable Terraform configurations
 
-Example command:
+### System Configuration (Ansible)
+- Automated server setup using Ansible playbooks
+- Installed required packages and applied system configurations
+- Ensured consistency across deployed instances
 
-```
-ansible-playbook playbook.yml
-```
-
----
-
-## Linux Security Hardening
-
-The project includes a hardening script that:
-
-• Updates system packages  
-• Installs firewall protection  
-• Enables security services  
-
-Example:
-
-```
-bash scripts/linux-hardening.sh
-```
+### Security Hardening
+- Implemented Linux hardening scripts using Bash
+- Applied security best practices to reduce system vulnerabilities
+- Configured access controls and permissions
 
 ---
 
-## Future Improvements
-
-Docker container deployment
-Infrastructure monitoring integration
-CI/CD pipeline automation
-Automated security scanning
+## 🔍 Key Features
+- Infrastructure as Code (Terraform)
+- Automated configuration management (Ansible)
+- Linux system hardening
+- Repeatable and scalable deployment process
 
 ---
 
-## Architecture Documentation
+## 📈 Outcome
+- Reduced manual system setup through automation
+- Improved consistency across environments
+- Strengthened system security through hardening practices
+- Demonstrated real-world system administration and cloud operations workflow
 
-For a detailed explanation of the infrastructure workflow and deployment process, see:
+---
 
-[Architecture Overview](architecture.md)
+## 🧠 What I Learned
+- Integrating Terraform and Ansible in a deployment pipeline
+- Automating Linux system configuration in AWS
+- Applying security hardening techniques in cloud environments
+- Importance of repeatability and standardization in system administration
 
-## Author
+---
 
-Ta'Nara N. Taylor  
-Cloud Engineer | Linux Infrastructure | Security Automation
+## 🔗 Repository Structure
+- `/terraform` – Infrastructure provisioning
+- `/ansible` – Configuration management
+- `/scripts` – Security hardening scripts
+- `/architecture.md` – System design and architecture
