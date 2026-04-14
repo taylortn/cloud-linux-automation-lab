@@ -1,76 +1,62 @@
-# Cloud Linux Automation Lab
+# ⚙️ Cloud Linux Automation Lab
 
-## 📌 Overview
-Built an automated AWS-based Linux environment using Terraform and Ansible to provision infrastructure and configure systems. This project focuses on reducing manual system setup, improving consistency, and enabling repeatable deployments in a cloud environment.
+This project demonstrates how to automate Linux system administration tasks using Ansible and Bash scripting in a cloud-based environment.
 
 ---
 
-## 🎯 Objective
-Manual provisioning and configuration of systems can lead to inconsistencies, security gaps, and increased operational overhead.
+## 🚀 Project Overview
 
-This project was designed to:
-- Automate infrastructure deployment using Infrastructure as Code
-- Standardize Linux system configuration
-- Apply security hardening practices
-- Reduce manual intervention in system setup
+The goal of this lab is to reduce manual administrative work by automating common system tasks such as configuration, patching, and system management.
+
+This project simulates how infrastructure is managed and maintained in modern environments using automation tools.
+
+---
+
+## 🧠 Key Features
+
+- Automated system configuration using Ansible playbooks  
+- Bash scripting for system administration tasks  
+- Repeatable and scalable infrastructure management  
+- Reduced manual intervention through automation  
 
 ---
 
 ## 🛠️ Technologies Used
-- AWS (EC2, VPC, Security Groups)
-- Terraform (Infrastructure as Code)
-- Ansible (Configuration Management)
-- Linux (RHEL-based systems)
-- Bash scripting
-- SSH
+
+- Linux (RHEL / Ubuntu)  
+- Ansible  
+- Bash Scripting  
+- AWS / Cloud Environment  
 
 ---
 
-## ⚙️ Implementation
+## 🎯 What This Project Demonstrates
 
-### Infrastructure Provisioning (Terraform)
-- Created EC2 instances using Terraform
-- Configured networking components (VPC, subnets, security groups)
-- Managed infrastructure through reusable Terraform configurations
-
-### System Configuration (Ansible)
-- Automated server setup using Ansible playbooks
-- Installed required packages and applied system configurations
-- Ensured consistency across deployed instances
-
-### Security Hardening
-- Implemented Linux hardening scripts using Bash
-- Applied security best practices to reduce system vulnerabilities
-- Configured access controls and permissions
+- Infrastructure automation using Ansible  
+- Linux system administration fundamentals  
+- Writing and executing automation scripts  
+- Managing systems efficiently at scale  
 
 ---
 
-## 🔍 Key Features
-- Infrastructure as Code (Terraform)
-- Automated configuration management (Ansible)
-- Linux system hardening
-- Repeatable and scalable deployment process
+## 🔧 Example Automation Tasks
+
+- System updates and patching  
+- Package installation  
+- Service configuration  
+- User and permission management  
 
 ---
 
-## 📈 Outcome
-- Reduced manual system setup through automation
-- Improved consistency across environments
-- Strengthened system security through hardening practices
-- Demonstrated real-world system administration and cloud operations workflow
+## 🔮 Future Improvements
+
+- Integrate CI/CD pipeline for automated deployments  
+- Add monitoring and logging integration  
+- Expand automation coverage across multiple systems  
+- Implement security hardening automation  
 
 ---
 
-## 🧠 What I Learned
-- Integrating Terraform and Ansible in a deployment pipeline
-- Automating Linux system configuration in AWS
-- Applying security hardening techniques in cloud environments
-- Importance of repeatability and standardization in system administration
+## 💡 Why This Matters
 
----
-
-## 🔗 Repository Structure
-- `/terraform` – Infrastructure provisioning
-- `/ansible` – Configuration management
-- `/scripts` – Security hardening scripts
-- `/architecture.md` – System design and architecture
+Automation is critical in modern IT environments. This project highlights how system administrators can improve efficiency, consistency, and scalability by automating repetitive tasks.
